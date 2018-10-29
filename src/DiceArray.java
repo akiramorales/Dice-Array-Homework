@@ -23,8 +23,7 @@ public class DiceArray
 		{
 			int val1 = die1.roll();
 			int val2 = die2.roll();
-			counter[val1] ++;
-			counter[val2] ++;
+			counter[val1+val2] ++;
 		}
 		
 		System.out.print(Arrays.toString(counter));
